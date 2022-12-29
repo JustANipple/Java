@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Payload_Manager/Payload_Manager.iml" filepath="$PROJECT_DIR$/Payload_Manager/Payload_Manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Telluric_Pathogens/Telluric_Pathogens.iml" filepath="$PROJECT_DIR$/Telluric_Pathogens/Telluric_Pathogens.iml" />
+    </modules>
+  </component>
+</project>
