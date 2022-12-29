@@ -1,21 +1,21 @@
 import java.util.ArrayList;
 
 public class Phenotable {
-    private String coltureType;
+    private String cropType;
 
     private ArrayList<Phenophase> phenophases;
 
-    public Phenotable(String coltureType, ArrayList<Phenophase> phenophases) {
-        this.coltureType = coltureType;
+    public Phenotable(String cropType, ArrayList<Phenophase> phenophases) {
+        this.cropType = cropType;
         this.phenophases = phenophases;
     }
 
-    public String getColtureType() {
-        return coltureType;
+    public String getCropType() {
+        return cropType;
     }
 
-    public void setColtureType(String coltureType) {
-        this.coltureType = coltureType;
+    public void setCropType(String cropType) {
+        this.cropType = cropType;
     }
 
     public ArrayList<Phenophase> getPhenophases() {

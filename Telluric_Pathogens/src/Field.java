@@ -1,21 +1,21 @@
 import java.util.ArrayList;
 
 public class Field {
-    private String coltureType;
+    private String cropType;
 
     private ArrayList<WeatherData> datas;
 
-    public Field(String coltureType, ArrayList<WeatherData> datas) {
-        this.coltureType = coltureType;
+    public Field(String cropType, ArrayList<WeatherData> datas) {
+        this.cropType = cropType;
         this.datas = datas;
     }
 
-    public String getColtureType() {
-        return coltureType;
+    public String getCropType() {
+        return cropType;
     }
 
-    public void setColtureType(String coltureType) {
-        this.coltureType = coltureType;
+    public void setCropType(String cropType) {
+        this.cropType = cropType;
     }
 
     public ArrayList<WeatherData> getDatas() {
