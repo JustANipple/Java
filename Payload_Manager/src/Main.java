@@ -18,7 +18,7 @@ public class Main {
         String mainFile = scanner.nextLine();
         System.out.println("Nome del sensore:");
         String sensorName = scanner.nextLine();
-        String sensorFile = sensorName + ".csv";
+        //String sensorFile = sensorName + ".csv";
         ArrayList<String> sensorLogs;
         ArrayList<Payload> sensorDatas;
         System.out.println("Digitare il giorno da cui si vuole partire (YYYY-MM-DD):");
@@ -35,6 +35,10 @@ public class Main {
                 Integer.parseInt(endDateParts[1]),
                 Integer.parseInt(endDateParts[2])
         ).atTime(23, 59, 59, 59);
+
+        String sensorFile = sensorName + "-" +
+                + startDate.getDayOfMonth() + "-" + startDate.getMonthValue() + "-" + startDate.getYear()+
+                ".csv";
 
         //Controllo dell'esistenza del file principale
         checkMainLogsFile(mainFile);
